@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+*{/*Configurações globais das css*/
+min-height:100%;
+}
+Body{
+background-image:linear-gradient(to bottom,#10022B,#220B52);
+color:white;
+font-family:'Concert One';
+max-width: 1200px;
+margin: 0 auto;
+padding: 15px; 
+}
+
+ header {
+    display: flex; 
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(250, 175, 77);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 18px;
+
+}
+
+a:hover{
+    color: rgb(250, 175, 77);
+    transition:0.3s all;
+    background-color: rgb(250, 175, 77);
+    color:white
+}
+
+
+h1{
+    font-weight: 200%;
+
+}
+Main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+
+}
+p{
+    font-size: 18px;
+}
+span {
+    color: rgb(250, 175, 77);
+}
+
+.me {
+text-align: center;
+margin: 50px 0px;
+color: rgb(250, 175, 77);
+    background-color: rgb(250, 175, 77);
+    color:white 
+
+}
+.formation{
+    text-align: center;
+    margin: 50px 0px;
+    color: rgb(250, 175, 77);
+    background-color: rgb(250, 175, 77);
+    color:white 
+    
+}
+.study{
+text-align: center;
+
+}
+.hobbie{
+    text-align: center;
+margin: 50px 0px;
+color: rgb(250, 175, 77);
+    background-color: rgb(250, 175, 77);
+    color:white 
+}
+.imagem{margin-bottom: 50px;
+    margin-left: 14%;
+
+}
+
+#ju{margin-bottom: 50px;
+    height: 50%;
+    border-radius:50%;
+    width: 300px;
+}
+
+
+#jo{margin-bottom: 50px;
+    height: 50%;
+    border-radius:50%;
+    width: 300px;}
+
+#ru{ margin-bottom: 50px;
+    height: 50%;
+    border-radius:50%;
+    width: 300px;
+}

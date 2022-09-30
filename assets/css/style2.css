@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+*{/*Configurações globais das css*/
+min-height:100%;
+}
+Body{
+background-image:linear-gradient(to bottom,#10022B,#220B52);
+color:white;
+font-family:'Concert One';
+max-width: 1000px;
+margin: 0 auto;
+padding: 15px; 
+}
+
+form{
+    width: 40%;
+    min-width: 380px;
+    background-color: rgb(250, 175, 77);
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 20px;
+}
+input,textarea {
+    min-width: 320px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    border:solid 1px #10022B,#220B52;
+    margin-top: 20px;
+    height: 40px;
+
+}
+h1{
+    text-align: center;
+}
+
+textarea{
+    height: 200px;
+    padding-top:10px ;
+}
+button{
+    display: block;
+    margin: 20px auto;
+    height: 40px;
+    min-width: 70px;
+    border-radius: none;
+    background: white;
+    cursor: pointer;
+}
+
+a{
+
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    border: 2px solid rgb(250, 175, 77);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 18px;
+}
+    
+a:hover{
+    color: rgb(250, 175, 77);
+    transition:0.3s all;
+    background-color: rgb(250, 175, 77);
+    color:white
+}
